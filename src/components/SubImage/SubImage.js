@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profile from '../../assets/profile1.jpg'
 import './SubImage.scss';
 
 export default class SubImage extends Component {
@@ -35,20 +36,24 @@ export default class SubImage extends Component {
     return 100 / numRows;
   }
 
-  getStyle = () => {
-    const { x, y } = this.state;
+  getStyle = (image) => {
+    const { x, y, numCols, numRows } = this.state;
     return {
       top: `${this.getTop()}%`,
       left: `${this.getLeft()}%`,
       width: `${this.getWidth()}%`,
       height: `${this.getHeight()}%`,
-      backgroundColor: `rgb(${x*20},${y*20},0)`
+      backgroundImage: `url(${image})`,
+      backgroundPositionX: `${this.getLeft()}%`,
+      backgroundPositionY: `${this.getTop()}%`,
+      backgroundSize: `${100 * (numCols + 1)}% ${100 * (numRows + 1)}%`,
+      backgroundRepeat: 'no-repeat',
     }
   }
 
   render() {
     return (
-      <div className='sub-image' style={this.getStyle()}>
+      <div className='sub-image' style={this.getStyle(profile)}>
         ({this.state.x}, {this.state.y})
       </div>
     )

@@ -1,3 +1,7 @@
 .sub-image{
-  position: absolute
+  position: absolute;
+  // background-size: 700%;
+  // background-size: 700% 1100%;
+  background-position-x: 100%;
+  overflow: hidden
 }
