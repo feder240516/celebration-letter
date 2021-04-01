@@ -1,4 +1,5 @@
-import ImageArray from './components/ImageArray/ImageArray'
+import ImageArray from './components/ImageArray/ImageArray';
+import Letter from './components/Letter/Letter';
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   const numCols = 6;
   return (
     <div className="App">
-      <ImageArray numRows={numRows} numCols={numCols}/>
+      <Letter />
     </div>
   );
 }
