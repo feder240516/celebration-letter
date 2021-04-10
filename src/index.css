@@ -1,3 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
+/* @import url('../../assets/fonts/modernTypewriter/MODERN_TYPEWRITER.ttf'); */
+@font-face {
+  font-family: 'Modern Typewriter';
+  src: local('Modern Typewriter'), url(./assets/fonts/modernTypewriter/MODERN_TYPEWRITER.ttf) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,3 +26,4 @@ code {
   height: 100%;
   width: 100%;
 }
+
