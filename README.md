@@ -12,3 +12,5 @@ If you don't like the audio and background resources that I added, you can find 
 
 ## And finally...
 ... if this resource helped you, let me know at federicoreinavinchira@gmail.com or star the project on github. In the future, I'll be releasing a version and a webpage for allowing to customize the content without having to fork the project, so be patient. If you find any issue, write it in the issues panel or email it to me.
+
+Btw, as I had some personal info in the letter, I rebased the commits to delete it.
