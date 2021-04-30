@@ -23,6 +23,8 @@ export default class Letter extends Component {
       'In the future, I may update this project to allow generating customized letters without having to fork it, so be patient.',
       'Thank you for checking this project. I have some other projects you may like in my github page at https://github.com/feder240516/'
     ];
+    this.sender = 'Federico Reina, dev'
+    this.destiny = 'Anyone who reads this.'
     this.state = {
       currentText: '',
       hiddenText: '',
@@ -161,7 +163,7 @@ export default class Letter extends Component {
           </div>
           <div className="border" onClick={this.letterClicked}></div>
           <div className="cover" onClick={this.letterClicked}>
-            <div className="destiny">To: <u>Anyone who reads this</u><br/>From: <u>Federico Reina, dev</u></div>
+            <div className="destiny">To: <u>{this.destiny}</u><br/>From: <u>{this.sender}</u></div>
           </div>
           <div className="content with-scrollbar" ref={this.contentRef} onClick={this.letterExtracted}>
             {this.renderedText()}
