@@ -1,5 +1,7 @@
 # Letter template
-This is a template of a letter that can be used to show your affection to anyone you want. Feel free to fork this project if you want to customize it.
+This is a template of a letter that can be used to show your affection to anyone you want. Currently hosted at https://feder240516.github.io/celebration-letter/ 
+
+Feel free to fork this project if you want to customize it.
 
 ## How to use it
 In the file components/Letter/Letter.js, starting around line 20, there is an array of messages that are the content of every page. Modify them to your needs.
