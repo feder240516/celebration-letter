@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './Letter.scss';
-import envelope from '../../assets/letter envelope.svg'
-import envelope2 from '../../assets/letter envelope 2.svg'
 import envelope3 from '../../assets/letter envelope 3.svg'
 import speak from '../../assets/audio/speak.wav';
 import sea from '../../assets/audio/sea2.mp3';
@@ -35,7 +33,6 @@ export default class Letter extends Component {
       letterExpanded: false,
       currentPage: 0,
       animatingCard: false,
-      // currentPage: 0,
     };
   }
 
@@ -88,8 +85,6 @@ export default class Letter extends Component {
   }
 
   renderedText = () => {
-    // subTexts
-    // n = this.state.currentText.split('\n').length
     return (
       <>
         {this.state.currentText.split('\n').map((w, i) => (
