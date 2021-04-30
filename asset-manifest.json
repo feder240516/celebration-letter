@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/celebration-letter/static/css/main.cfcd1dc0.chunk.css",
+    "main.js": "/celebration-letter/static/js/main.c07be921.chunk.js",
+    "main.js.map": "/celebration-letter/static/js/main.c07be921.chunk.js.map",
+    "runtime-main.js": "/celebration-letter/static/js/runtime-main.f47ccda1.js",
+    "runtime-main.js.map": "/celebration-letter/static/js/runtime-main.f47ccda1.js.map",
+    "static/js/2.61b2ff54.chunk.js": "/celebration-letter/static/js/2.61b2ff54.chunk.js",
+    "static/js/2.61b2ff54.chunk.js.map": "/celebration-letter/static/js/2.61b2ff54.chunk.js.map",
+    "static/js/3.0952e9d8.chunk.js": "/celebration-letter/static/js/3.0952e9d8.chunk.js",
+    "static/js/3.0952e9d8.chunk.js.map": "/celebration-letter/static/js/3.0952e9d8.chunk.js.map",
+    "index.html": "/celebration-letter/index.html",
+    "static/css/main.cfcd1dc0.chunk.css.map": "/celebration-letter/static/css/main.cfcd1dc0.chunk.css.map",
+    "static/js/2.61b2ff54.chunk.js.LICENSE.txt": "/celebration-letter/static/js/2.61b2ff54.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/celebration-letter/static/media/MODERN_TYPEWRITER.db0b9d53.ttf",
+    "static/media/Letter.scss": "/celebration-letter/static/media/paper bg.6a064030.png",
+    "static/media/letter envelope 3.ec56afea.svg": "/celebration-letter/static/media/letter envelope 3.ec56afea.svg",
+    "static/media/sea2.f2645439.mp3": "/celebration-letter/static/media/sea2.f2645439.mp3",
+    "static/media/speak.15937bc4.wav": "/celebration-letter/static/media/speak.15937bc4.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f47ccda1.js",
+    "static/js/2.61b2ff54.chunk.js",
+    "static/css/main.cfcd1dc0.chunk.css",
+    "static/js/main.c07be921.chunk.js"
+  ]
+}
